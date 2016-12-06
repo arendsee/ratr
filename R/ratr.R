@@ -1,3 +1,9 @@
+#' ratr: A wrapper for the rat workflow language
+#'
+#' @docType package
+#' @name pied
+NULL
+
 #' Get a rat parser
 #' 
 #' @param path the path to the rat compiler

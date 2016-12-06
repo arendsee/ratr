@@ -6,9 +6,16 @@ Maintainer: Zebulun Arendsee <arendsee@iastate.edu>
 URL: https://github.com/arendsee/ratr
 BugReports: https://github.com/arendsee/ratr/issues
 Description:
-    Wraps the Rat workflow language
-Depends: R (>= 3.3.2)
+    Wraps the Rat workflow language.
+Depends:
+    R (>= 3.3.2)
+Suggests:
+    testthat
+Enhances:
+    pied
+SystemRequirements:
+    rat
 Encoding: UTF-8
 LazyData: true
 License: MIT + file LICENSE
-Suggests: testthat
+RoxygenNote: 5.0.1
